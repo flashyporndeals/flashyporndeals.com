@@ -4663,3 +4663,252 @@ a.vip_logout .mobile_only{
 }
 }
 
+/*CSS Syntax Hightler */
+pre {
+    padding: 50px 10px 10px 10px;
+    margin: .5em 0;
+    white-space: pre;
+    word-wrap: break-word;
+    overflow: auto;
+    background-color: #fff;
+    position: relative;
+    border-radius: 4px;
+    max-height: 500px;
+}
+
+pre::before {
+    font-size: 16px;
+    content: attr(title);
+    position: absolute;
+    top: 0;
+    background-color: #ffa41c;
+    padding: 10px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 0 15px 0;
+    font-weight: bold;
+}
+
+pre::after {
+    content: &#39;Double click to selection&#39;;
+    padding: 2px 10px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    color: #fff;
+    line-height: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+pre:hover::after {
+    opacity: 0;
+    top: -8px;
+    visibility: visible;
+}
+
+code {
+    font-family: Consolas,Monaco,&#39;
+    Andale Mono&#39;,&#39;Courier New&#39;,Courier,Monospace;
+    line-height: 16px;
+    color: #88a9ad;
+    background-color: transparent;
+    padding: 1px 2px;
+    font-size: 12px;
+}
+
+pre code {
+    display: block;
+    background: none;
+    border: none;
+    color: #000;
+    direction: ltr;
+    text-align: left;
+    word-spacing: normal;
+    padding: 0 0;
+    font-weight: bold;
+}
+
+code .token.punctuation {
+    color: #ccc;
+}
+
+pre code .token.punctuation {
+    color: #fafafa;
+}
+
+code .token.comment,code .token.prolog,code .token.doctype,code .token.cdata {
+    color: #777;
+}
+
+code .namespace {
+    opacity: .8;
+}
+
+code .token.property,code .token.tag,code .token.boolean,code .token.number {
+    color: #e5dc56;
+}
+
+code .token.selector,code .token.attr-name,code .token.string {
+    color: #88a9ad;
+}
+
+pre code .token.selector,pre code .token.attr-name {
+    color: #fafafa;
+}
+
+pre code .token.string {
+    color: #40ee46;
+}
+
+code .token.entity,code .token.url,pre .language-css .token.string,pre .style .token.string {
+    color: #ccc;
+}
+
+code .token.operator {
+    color: #1887dd;
+}
+
+code .token.atrule,code .token.attr-value {
+    color: #009999;
+}
+
+pre code .token.atrule,pre code .token.attr-value {
+    color: #1baeb0;
+}
+
+code .token.keyword {
+    color: #e13200;
+    font-style: italic;
+}
+
+code .token.comment {
+    font-style: italic;
+}
+
+code .token.regex {
+    color: #ccc;
+}
+
+code .token.important {
+    font-weight: bold;
+}
+
+code .token.entity {
+    cursor: help;
+}
+
+pre mark {
+    background-color: #ea4f4e!important;
+    color: #fff!important;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+code mark {
+    background-color: #ea4f4e!important;
+    color: #fff!important;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+pre code mark {
+    background-color: #ea4f4e!important;
+    color: #fff!important;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.comments pre {
+    padding: 10px 10px 15px 10px;
+    background: #fff;
+}
+
+.comments pre::before {
+    content: &#39;Code&#39;;
+    font-size: 13px;
+    position: relative;
+    top: 0;
+    background-color: #f56954;
+    padding: 3px 10px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+}
+
+.comments pre::after {
+    font-size: 11px;
+}
+
+.comments pre code {
+    color: #ffa41c;
+}
+
+.comments pre.line-numbers {
+    padding-left: 10px;
+}
+
+pre.line-numbers {
+    position: relative;
+    padding-left: 3.0em;
+    counter-reset: linenumber;
+}
+
+pre.line-numbers &gt; code {
+    position: relative;
+}
+
+.line-numbers .line-numbers-rows {
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    font-size: 100%;
+    left: -3.5em;
+    width: 3em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    padding: 0;
+}
+
+.line-numbers-rows &gt; span {
+    pointer-events: none;
+    display: block;
+    counter-increment: linenumber;
+}
+
+.line-numbers-rows &gt; span:before {
+    content: counter(linenumber);
+    color: #999;
+    display: block;
+    padding-right: 0.8em;
+    text-align: right;
+    transition: 350ms;
+}
+
+pre[data-codetype=&#39;CSS&#39;]:before {
+    background-color: #00a1d6;
+}
+
+pre[data-codetype=&#39;HTML&#39;]:before {
+    background-color: #3cc888;
+}
+
+pre[data-codetype=&#39;JavaScript&#39;]:before {
+    background-color: #75d6d0;
+}
+
+pre[data-codetype=&#39;JQuery&#39;]:before {
+    background-color: #e5b460;
+}
