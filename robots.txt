@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /sexypics/
+Disallow: /sexypics
 Disallow: /sexypics/pornpictures
 Disallow: /sexypics/ashleyalban
 Disallow: /sexypics/dillionharper
