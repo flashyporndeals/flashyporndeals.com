@@ -9,6 +9,12 @@ Disallow: /randompornimages/ashleyalban
 Disallow: /randompornimages/dillionharper
 Disallow: /randompornimages/sexybutnotporn
 Disallow: /randompornimages/sexybutporn
+Disallow: /deals
+Disallow: /deals/brazzers
+Disallow: /deals/brazzersmembership
+Disallow: /deals/fleshlight
+Disallow: /deals/nutaku
+Disallow: /deals/pornhubpremium
 Disallow: /fleshlightstraight
 Disallow: /gay/fleshlightgay
 Disallow: /transgender/fleshlightshemale
@@ -18,7 +24,6 @@ Disallow: /privacy-policy
 Disallow: /terms-conditions
 Disallow: /disclaimer
 Disallow: /trashtml
-Disallow: /deals
 Allow: /sitemap.xml
 Allow: /robots.txt
 
