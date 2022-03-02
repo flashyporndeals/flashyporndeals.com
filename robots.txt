@@ -4,11 +4,19 @@ Disallow: /sexypics/pornpictures
 Disallow: /sexypics/ashleyalban
 Disallow: /sexypics/dillionharper
 Disallow: /sexypics/sexygirls
+Disallow: /randompornimages
+Disallow: /randompornimages/ashleyalban
+Disallow: /randompornimages/dillionharper
+Disallow: /randompornimages/sexybutnotporn
+Disallow: /randompornimages/sexybutporn
 Disallow: /contact-us
 Disallow: /how-it-works
 Disallow: /privacy-policy
 Disallow: /terms-conditions
 Disallow: /disclaimer
-Disallow: /sitemap.xml
+Disallow: /trashtml
+Disallow: /deals
+Allow: /sitemap.xml
+Allow: /robots.txt
 
 Sitemap: https://flashyporndeals.com/sitemap.xml
