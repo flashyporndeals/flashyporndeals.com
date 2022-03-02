@@ -9,6 +9,9 @@ Disallow: /randompornimages/ashleyalban
 Disallow: /randompornimages/dillionharper
 Disallow: /randompornimages/sexybutnotporn
 Disallow: /randompornimages/sexybutporn
+Disallow: /fleshlightstraight
+Disallow: /gay/fleshlightgay
+Disallow: /transgender/fleshlightshemale
 Disallow: /contact-us
 Disallow: /how-it-works
 Disallow: /privacy-policy
