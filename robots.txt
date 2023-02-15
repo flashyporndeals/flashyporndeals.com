@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /deals
+Disallow: /info
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+Sitemap: https://flashyporndeals.com/sitemap.xml
