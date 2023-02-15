@@ -11445,6 +11445,13 @@ textarea.form-control-lg {
 }
 .btn-outline-cams {
   color: #000000;
+  font-weight: 620;
+  border-color: #ffffff;
+  border-width: 1.5px !important;
+  margin-right: 20px;
+}
+.btn-outline-cams2 {
+  color: #000000;
   background: #ffffff;
   font-weight: 620;
   border-width: 1.5px !important;
