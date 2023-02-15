@@ -1,26 +1,19 @@
-/*!
-* Start Bootstrap - Simple Sidebar v6.0.5 (https://startbootstrap.com/template/simple-sidebar)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
-*/
-// 
-// Scripts
-// 
+   var x = Math.floor((Math.random() * 6) + 1);//random number 1-6 just to show how to eliminate 0
+  var y = Math.floor((Math.random() * 7));
+  //random number 0-6 stored in y
+//Math.floor makes it a whole number and rounds down
 
-window.addEventListener('DOMContentLoaded', event => {
+var randImage = new Array(); //creates a new list of image locations
+randImage[0] = "images/brazzers.webp"; //stores the image location as text in the array number in the square brackets. You might put something ilke images/dog.jpg
+randImage[1] = "images/brazzers.webp";
+randImage[2] = "images/brazzers.webp";
+randImage[3] = "images/brazzers.webp";
+randImage[4] = "images/brazzers.webp";
+randImage[5] = "images/brazzers.webp";
+randImage[6] = "images/brazzers.webp";
+randImage[7] = "images/brazzers.webp";
 
-    // Toggle the side navigation
-    const sidebarToggle = document.body.querySelector('#sidebarToggle');
-    if (sidebarToggle) {
-        // Uncomment Below to persist sidebar toggle between refreshes
-        // if (localStorage.getItem('sb|sidebar-toggle') === 'true') {
-        //     document.body.classList.toggle('sb-sidenav-toggled');
-        // }
-        sidebarToggle.addEventListener('click', event => {
-            event.preventDefault();
-            document.body.classList.toggle('sb-sidenav-toggled');
-            localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
-        });
-    }
+//tells the document to to show the array with the same number the random number generator created. I gave it a width too to try and keep them semi consitant 
+document.getElementById("pic").src = randImage[x];
+//this does the same thing but references the id number, which gives you the chance to make a couple with different set locations. I used x so the images would be different most of the time, but it will not include the first item on the list
 
-});
