@@ -1,0 +1,22 @@
+
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/11614/fontawesome-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+  background: linear-gradient( #400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+  border-radius: 100%;
+  color: #fff;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+}

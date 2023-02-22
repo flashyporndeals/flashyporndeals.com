@@ -1,7 +1,13 @@
 User-agent: *
 Disallow: /deals
-Disallow: /info
-Allow: /sitemap.xml
-Allow: /robots.txt
+Disallow: /info/contact
+Disallow: /info/privacypolicy
+Disallow: /info/terms&conditions
+Disallow: /info/2257
+Disallow: /info/copyright
+Disallow: /info/disclaimer
+Disallow: /info/cookies
+Disallow: /info/privacypolicy
+Allow: /deals/brazzersmembership
 
 Sitemap: https://flashyporndeals.com/sitemap.xml
