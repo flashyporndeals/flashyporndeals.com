@@ -8,6 +8,5 @@ Disallow: /info/copyright
 Disallow: /info/disclaimer
 Disallow: /info/cookies
 Disallow: /info/privacypolicy
-Disallow: /banwordlist
 
 Sitemap: https://flashyporndeals.com/sitemap.xml
