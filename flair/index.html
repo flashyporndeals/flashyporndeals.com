@@ -83,7 +83,18 @@
       }
     }
 
+        #flairTitle {
+            /* Default styling for non-mobile resolutions */
+            margin: 0 auto;
+            text-align: center;
+        }
 
+        @media (max-width: 600px) {
+            /* Media query for mobile resolutions */
+            #flairTitle {
+                margin: 0; /* Remove margin for full width */
+            }
+        }
   </style>
 </head>
 
@@ -98,7 +109,7 @@
 
   <body>
     <header>
-      <h1>User Flair Appearance</h1>
+      <h1 id="flairTitle">User Flair Appearance</h1>
       
       
       <div class="toggle">
