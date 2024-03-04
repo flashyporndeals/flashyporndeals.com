@@ -4,14 +4,14 @@
 //Math.floor makes it a whole number and rounds down
 
 var randImage = new Array(); //creates a new list of image locations
-randImage[0] = "images/mofos.jpg"; //stores the image location as text in the array number in the square brackets. You might put something ilke images/dog.jpg
-randImage[1] = "images/mofos.jpg";
-randImage[2] = "images/mofos.jpg";
-randImage[3] = "images/mofos.jpg";
-randImage[4] = "images/mofos.jpg";
-randImage[5] = "images/mofos.jpg";
-randImage[6] = "images/mofos.jpg";
-randImage[7] = "images/mofos.jpg";
+randImage[0] = "images/brazzers.jpg"; //stores the image location as text in the array number in the square brackets. You might put something ilke images/dog.jpg
+randImage[1] = "images/brazzers.jpg";
+randImage[2] = "images/brazzers.jpg";
+randImage[3] = "images/brazzers.jpg";
+randImage[4] = "images/brazzers.jpg";
+randImage[5] = "images/brazzers.jpg";
+randImage[6] = "images/brazzers.jpg";
+randImage[7] = "images/brazzers.jpg";
 
 //tells the document to to show the array with the same number the random number generator created. I gave it a width too to try and keep them semi consitant 
 document.getElementById("pic").src = randImage[x];
